@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+   <link rel="stylesheet" href="style.css">
+    <title>MJ'S PORTFOLIO</title>
+</head>
+<body>
+   <header class="header">
+    <div class="nav-bar">
+        
+    </div>
+    <a href="#" class="logo">MJ</a>
+
+    <nav class="navigation">
+        <a href="#" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="toggle-btn">
+        <i class="ri-menu-3-line" id="menu-icon"></i>
+    </div>
+  
+    
+   </header>
+   <div class="dropdown-menu">
+       
+    <a href="#" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+
+</div>
+<!--Home section-->
+<section class="home" id="home">
+    <div class="home-content-pic">
+        <img src="assets/hero-pic.jpg" alt="">
+    </div>
+     <div class="home-content">
+        <p>Hi, I'm</p>
+        <h1>Majeedat Abdulwahab</h1>
+        <h3>A frontend Developer</h3>
+       
+       
+        <div class="btn-container">
+            <a href="https://drive.google.com/file/d/14mU6mHNb1wT3IVPf0EFXWDK6nlckGBIJ/view?usp=drive_link" class="resume-btn" target="_blank">Download CV</a></button>
+            <button class="call-btn" onclick="location.href = './#contact'">Contact Me</button>
+        </div>
+    </div>
+    
+</section>
+
+    <!--About section-->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            
+            <p> Hello! I'm Majeedat, a web developer who is overly obsessed with cats and coding. When I'm not debugging, you'll often find me binge-watching YouTube lifestyle videos or working on mastering JavaScript, which I have a weird obsession with. Surprisingly, I find CSS more complicated than JavaScript, but my goal is to build visually appealing websites and apps that delight users.</p>
+            <p>With four years experience as a microbiologist in training and a curious mind for software engineering with various certification courses taken to explore learning HTML, CSS, and JavaScript.
+                I'm focused on mastering the tools that will fuel my journey to crafting impactful software- A bio-software dream😶‍🌫️✨️
+                </p>
+            <p>Recently delving into the realm of React, I've embraced the challenge of mastering this powerful library. The journey has been a dynamic learning experience, where each component, state, and hook is a puzzle piece contributing to the bigger picture of modern web development.</p>
+            <p>Thank you for stepping into my evolving world of web development. Let's code and create something extraordinary!!!.</p>
+        </div>
+    </section>
+<!--Skills section-->
+    <section class="skills" id="skills">
+        <div class="skills-content">
+    <h2 class="skills-header">My <span>Skills</span></h2>
+    <div class="skills-container">
+        <div class="first">
+            <img src="./assets/icons8-html5.svg" loading="lazy" alt="html-logo" class="icon">
+            <img src="./assets/icons8-css3.svg" loading="lazy" alt="css-logo" class="icon">
+            <img src="./assets/icons8-javascript.svg" loading="lazy" alt="js-logo" class="icon">
+        </div>
+        <div class="second">
+           <img src="./assets/icons8-react.svg" loading="lazy" alt="react-logo" class="icon">
+           <img src="./assets/icons8-git.svg" loading="lazy" alt="git-logo" class="icon">
+        </div>
+    </div>
+    
+        </div>
+    </section>
+
+    <!--Projects section-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Projects</h2>
+        <div class="projects-container">
+            <div class="projects-card project-container">
+                <img src="./assets/An age calculator.jpg" loading="lazy" alt="" class="project-shot">
+                <div class="content">
+                    <h3 class="project-title">An Age Calculator</h3>
+                <p class="project-details">
+        This is an age calculator that was built with html, css and vanilla javascript.
+                </p>
+                <a href="https://anagecalculator.netlify.app/" class="project-link">LIVE DEMO</a>
+                </div>
+            </div>
+            <div class="projects-card project-container">
+                <img src="./assets/React-counter-app.jpeg" loading="lazy" alt="" class="project-shot">
+                <div class="content">
+                    <h3 class="project-title">A Simple counter app</h3>
+                <p class="project-details">
+          A simple yet responsive counter app built with react.js. This is my first react project.
+                </p>
+                <a href="https://a-simple-react-counter-app.netlify.app/" class="project-link">LIVE DEMO</a>
+            
+                </div>
+            </div>
+           
+            
+            <div class="projects-card project-container">
+                <img src="./assets/Social-links-profile.jpeg" loading="lazy" alt="" class="project-shot">
+                <div class="content">
+                    <h3 class="project-title">A Social Link Profile</h3>
+                    <p class="project-details">
+             A social link profile card built using html and css.
+                    </p>
+                    <a href="https://my-social-links-profile.netlify.app/" class="project-link">LIVE DEMO</a>
+                        
+                       
+                    
+                    
+                </div>
+                </div>
+               
+        </div>
+    </section>
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <h3 class="contact-header">Contact <span>Me</span></h3>
+        <P>Kindly fill the form to get in touch with me.</P>
+<div class="contact-container">
+<form action="https://formspree.io/f/mayrjpkz" method="POST">
+    <label for="name">Name</label>
+    <input type="text" name="yourname" id="your-name" class="input-space" placeholder="Enter Your name" required><br>
+    <label for="email">Email Address</label>
+    <input type="email" name="email" id="your-mail" class="input-space" placeholder="Enter your Email Address"required><br>
+    <label for="message">Message</label>
+    <textarea id="message" cols="60" rows="10"  class="input-space" placeholder="Enter your message" required></textarea>
+    <input type="submit" value="submit" class="sub-btn" >
+</form>
+</div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="socials">
+            <a href="https://twitter.com/majeedahwahab" target="_blank" >
+                <img src="./assets/icons8-twitterx.svg" alt="twitter-logo" loading="lazy" class="social-icon">
+            </a>
+    
+            <a href="https://www.instagram.com/majeedah_wahab" target="_blank" >
+                <img src="./assets/icons8-instagram.svg" alt="instagram-logo" loading="lazy" class="social-icon">
+            </a>
+    
+            <a href="https://www.linkedin.com/in/majeedat-abdulwahab-34b0ab272/" target="_blank" >
+                <img src="./assets/icons8-linkedin.svg" alt="linkedin-logo" loading="lazy" class="social-icon">
+            </a>
+    
+            <a href="https://github.com/Majeedatwahab" target="_blank" >
+                <img src="./assets/icons8-github.svg" alt="github-logo" loading="lazy" class="social-icon">
+            </a>
+        </div>
+    </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
